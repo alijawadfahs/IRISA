@@ -8,7 +8,7 @@ Personal presentation: 1 slide (1 min or less)
 
 - Research interest.
 
-- *Other qualifications ?*
+ *Other qualifications ?*
 
 
 Master thesis: 1-2 slide (3 mins)
@@ -26,11 +26,11 @@ Master thesis: 1-2 slide (3 mins)
 State of the art on edge clouds: 1 slide (2 min)
 ----------------------------------------
 
-- *To be updated.* 
+ *To be updated.* 
 
-- *general state of art ? or the state of art in the protocols/mechanisms/things we are willing to work on ?*
+ *general state of art ? or the state of art in the protocols/mechanisms/things we are willing to work on ?*
 
-- *ask for suggestions from the prof.*  
+ *ask for suggestions from the prof.*  
 
 
 PhD topic: 1 slide (3 min)
@@ -45,7 +45,10 @@ Initial ideas on how to address the PhD topic: 1 slide (1-2 min)
 ------------------------------------------------------
 
 
-- *need to read some papers before writing those.*
+ *need to read some papers before writing those.*
+
+
+*NOTE, the italicized text is a side-note, or a question*
 
 
 
