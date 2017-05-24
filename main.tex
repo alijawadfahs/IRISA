@@ -1,0 +1,66 @@
+
+
+\documentclass{beamer}
+
+
+\usetheme{Madrid}
+
+\title{Presentation Title}
+
+
+\subtitle{Optional Subtitle}
+
+\author{F.~Author\inst{1} \and S.~Another\inst{2}}
+
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Computer Science\\
+  University of Somewhere
+  \and
+  \inst{2}%
+  Department of Theoretical Philosophy\\
+  University of Elsewhere}
+
+\date{Conference Name, 2013}
+
+\subject{Theoretical Computer Science}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+ 
+\end{frame}
+
+\section{First Main Section}
+
+
+
+
+
+
+
+
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{For Further Reading}
+
+
+
+\end{document}
+
+
