@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{General intoduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Project Objectives}{8}{0}{1}
+\beamer@sectionintoc {2}{Background}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{IEEE802.15.4e \& 6top}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{MAC Filtering}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Collisions in Dedicated cells}{18}{0}{2}
+\beamer@sectionintoc {3}{Proposed Mechanism}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Criteria}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Reserve Table}{27}{0}{3}
+\beamer@subsectionintoc {3}{3}{Adding the Cell Buffer}{29}{0}{3}
+\beamer@sectionintoc {4}{Results}{32}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mechanisim and Results}{32}{0}{4}
