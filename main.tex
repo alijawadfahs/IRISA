@@ -1,39 +1,46 @@
 
 
 \documentclass{beamer}
-
+\usepackage[super]{nth}
 
 \usetheme{Madrid}
 
-\title{Presentation Title}
-
-
-\subtitle{Optional Subtitle}
-
-\author{F.~Author\inst{1} \and S.~Another\inst{2}}
-
-
-\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+\makeatother
+\setbeamertemplate{footline}
 {
-  \inst{1}%
-  Department of Computer Science\\
-  University of Somewhere
-  \and
-  \inst{2}%
-  Department of Theoretical Philosophy\\
-  University of Elsewhere}
-
-\date{Conference Name, 2013}
-
-\subject{Theoretical Computer Science}
-
-\AtBeginSubsection[]
-{
-  \begin{frame}<beamer>{Outline}
-    \tableofcontents[currentsection,currentsubsection]
-  \end{frame}
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.8\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
 }
+\makeatletter
+\setbeamertemplate{navigation symbols}{}
+\title{PhD Application for The PhD Thesis\\ "Decentralized Fog Computing Infrastructure Control"}
 
+
+\subtitle{}
+
+\author{Ali J. Fahs}%\\ Supervisor: Professor Guillaume Pierre}
+
+
+
+\institute[Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA)] % (optional, but mostly needed)
+{
+  
+  Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA)\\MYRIADS Team\\Supervised by Professor Guillaume Pierre 
+  
+  
+  }
+
+\date{Audition, \nth{8} of June, 2017}
+
+\subject{PhD Application}
 
 \begin{document}
 
@@ -45,8 +52,51 @@
   \tableofcontents
  
 \end{frame}
+\section{Personal Presentation}
+\begin{frame}{Personal Presentation}
+\begin{itemize}
+\item A double diploma student  
+\begin{itemize}
+\item Engineering diploma in telecommunication and computer science - Lebanese University, Faculty of engineering (Home University)
+\item Master's degree in Informatics Grenoble (MoSIG) Parallel, Distributed Systems Track - Grenoble INP, Ensimag jointly with UGA, IMAG (Host University)
+\end{itemize}
+\item Master's thesis "Distributed Approach for Cross-Layer Resource Allocation in Wireless Sensor Networks" Jointly between LIG and VERIMAG
+\item Research interest: Distributed systems, Networking.
+\end{itemize}
 
-\section{First Main Section}
+ 
+\end{frame}
+\section{Master Thesis}
+
+\begin{frame}{Master Thesis}
+
+hey
+ 
+\end{frame}
+
+\section{State of Art for Edge Clouding}
+
+\begin{frame}{State of Art for Edge Clouding}
+
+hey
+ 
+\end{frame}
+
+\section{PhD Topic}
+\begin{frame}{PhD Topic}
+
+hey
+ 
+\end{frame}
+\section{Project Perspective}
+\begin{frame}{Project Perspective}
+
+hey
+ 
+\end{frame}
+
+
+
 
 
 
