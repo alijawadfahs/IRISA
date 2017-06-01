@@ -1,0 +1,32 @@
+Slide one: Personal presentation 
+* direct + mention that this PhD offer is my number one priority.
+
+Slide two: Master’s thesis (1)
+
+*research oriented internship,  working on Wireless sensor networks and IoT , precisely IEEE802.15.4
+*  Our contribution is to suggest solutions for the collision of IEEE802.15.4 TSCH communication cells.
+
+* The main cause of the problem is the distributed mechanism used to schedule the resources among the communication node.
+
+* as in the figure more brief explanation ...
+
+Slide three: Master’s thesis (2)
+
+* We used the already existing 6top transactions in the network to achieve a local mutual exclusion.
+
+* Our work won’t introduce any new overhead to the network, this important for an already congested network.
+
+* as in the figure bla bla bla
+
+* we achieved a reduction of 70% of the colliding packets.
+
+*  in the internship I have dealt with distributed and centralized algorithms, I have learned the pros and cons for each of them, which is most likely beneficial for the PhD I’m applying for
+
+
+Slide four:  edge clouding state of art
+I will do a summary of the section state of art in the MEC-ConPaaS paper. 
+I found this section very precious in understanding the problem. 
+
+
+Slide Five: PhD topic And Prespective
+
