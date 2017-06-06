@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Personal Presentation}{3}{0}{1}
 \beamer@sectionintoc {2}{Master Thesis}{4}{0}{2}
-\beamer@sectionintoc {3}{State of Art for Edge Clouding}{13}{0}{3}
+\beamer@sectionintoc {3}{State-of-the-Art for Edge Clouding}{13}{0}{3}
 \beamer@sectionintoc {4}{PhD Topic}{19}{0}{4}
-\beamer@sectionintoc {5}{Project Perspective}{20}{0}{5}
+\beamer@sectionintoc {5}{Project Perspective}{27}{0}{5}
