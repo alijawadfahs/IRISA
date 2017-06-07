@@ -56,11 +56,11 @@
 \begin{itemize}
 \item A double diploma student.
 \begin{itemize}
-\item Engineering diploma in telecommunication and computer science - Lebanese University, Faculty of engineering (ULFG).
-\item Master's degree in Informatics Grenoble (MoSIG) Parallel, Distributed Systems Track - Grenoble INP (Institut national polytechnique), Ensimag (\'Ecole nationale sup\'erieure d'informatique et de math\'ematiques appliqu\'ees de Grenoble) jointly with UGA (universit\'e grenoble alpes), IMAG (Informatique, math\'ematiques, math\'ematiques appliqu\'ees de Grenoble).
+\item Engineering diploma in telecommunication and computer science - \textbf{Lebanese University, Faculty of engineering (ULFG)}.
+\item Master's degree in Informatics Grenoble (MoSIG) Parallel, Distributed Systems Track - \textbf{Grenoble INP} (Institut national polytechnique), \textbf{Ensimag} (\'Ecole nationale sup\'erieure d'informatique et de math\'ematiques appliqu\'ees de Grenoble) jointly with \textbf{UGA} (universit\'e grenoble alpes), \textbf{IMAG} (Informatique, math\'ematiques, math\'ematiques appliqu\'ees de Grenoble).
 \end{itemize}
 
-\item Research interest: Distributed systems, Networking.
+\item Research interest: \alert{Distributed systems, Networking.}
 \item Master's thesis "Distributed Approach for Cross-Layer Resource Allocation in Wireless Sensor Networks" Jointly between LIG (Laboratoire d'Informatique de Grenoble) and VERIMAG.
 \end{itemize}
 
@@ -78,7 +78,7 @@
 \begin{block}{Overview}
     \begin{itemize}
     \item IEEE802.15.4: Wireless sensor network standard. 
-    \item<2-> Time-slotted channel hopping (TSCH), The Meduim access layer control.  
+    \item<2-> Time-slotted channel hopping (TSCH), The Medium access layer control.  
      \item<3-> 6TiSCH: IPv6 over IEEE802.15.4e TSCH. 
      \end{itemize}
     \end{block}
@@ -100,13 +100,13 @@
 
 \begin{minipage}[t]{0.48\linewidth}
 
-\begin{block}{Internship Challenges}
+\begin{block}{Challenges}
     \begin{itemize}
     
-    \item Improvement in the distributed 6TiSCH networks
-    \item<2-> Reduction of collision in TSCH Dedicated cells.
-     \item<3-> The distributed approach causing the problem. 
-      \item<4-> Lack of central entity. 
+   
+    \item High collision rates in TSCH dedicated cells.
+     \item<2-> Cause: no coordination between nodes. 
+      \item<3-> Lack of central entity. 
       
      
     
@@ -132,11 +132,10 @@
 
 \begin{block}{Proposed Mechanism}
     \begin{itemize}
-    \item Local Mutual exclusion.  
-    \item<2-> Using already existing transaction. 
-     \item<3-> No new traffic was induced. 
-     \item<4-> All the neighbor node will passively learn the schedule of B
-      \item<5-> Achieved 70\% reduction in the colliding Tx cells. 
+    \item Local mutual exclusion: every node passively learn the schedule of their neighbors. 
+    \item<2-> Entirely local algorithm, no new messages were introduced.
+     \item<3-> Result: 70\% reduction in the colliding Tx cells.
+     
     \end{itemize}
     \end{block}
 
@@ -149,19 +148,20 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{Internship Results}
+\begin{frame}{Master thesis Results}
 
 
 \begin{figure}[ht]
 
 
- \includegraphics[width=.9\linewidth]{Graph2.png}
+ \includegraphics[width=.78\linewidth]{Graph2.png}
 \end{figure}
 
 
- 
+\begin{itemize}
+\item Paper to be submitted to conference \textbf{WiMob 2017}.
+\end{itemize}
 \end{frame}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,17 +169,36 @@
 
 \begin{frame}{State-of-the-Art for Edge Clouding}
 
-\begin{block}{}
+\begin{block}{Cloud Infrastructure}
     \begin{itemize}
-    \item Cloud infrastructures are extremely flexible and
-powerful.
-    \item<2->  Clouding disadvantages: latency, mobility, {\em etc}...
-     \item<3-> Application-Network wall.
-      \item<4-> Edge Clouds: Deploying Cloudlets in the immediate end user proximity.
-      \item<5-> Using single board computers as Cloudlets: cheap, location, size, security.
-      \item<6-> Improvement of end to end latency, and application interactivity. 
+    \item  Pros: extremely flexible and powerful.
+    \item<2->  Cons: Clouding disadvantages: latency, mobility, {\em etc}...
+
     \end{itemize}
     \end{block}
+
+\end{frame}
+
+\begin{frame}{State-of-the-Art for Edge Clouding}
+
+\begin{block}{Cloud Infrastructure}
+    \begin{itemize}
+    \item  Pros: extremely flexible and powerful.
+    \item  Cons: Clouding disadvantages: latency, mobility, {\em etc}...
+
+    \end{itemize}
+    \end{block}
+
+\begin{block}{Edge clouds}
+    \begin{itemize}
+    \item Idea: deploying cloud applications in the immediate end user proximity.
+    \item<2-> Results: better end to end latency and application interactivity, less long-distance traffic.
+     \item<3-> Infrastructure based on single-board computers: small, cheap, can  be deployed everywhere.
+   
+    \end{itemize}
+    \end{block}
+ {\tiny *references: 1-Yi, Shanhe, Cheng Li, and Qun Li. "A survey of fog computing: concepts, applications and issues." Proceedings of the 2015 Workshop on Mobile Big Data. ACM, 2015.\\
+2- Van Kempen, Alexandre, et al. "MEC-ConPaaS: An experimental single-board based mobile edge cloud." IEEE Mobile Cloud Conference. 2017.}
 
 \end{frame}
 
@@ -187,9 +206,9 @@ powerful.
 \begin{frame}{PhD Topic}
  \begin{block}{Challenges of Fog Computing}
     \begin{itemize}
-    \item Centralized control over a distributed compute/storage resources.
-    \item<2-> Drawbacks of the centralized: Unnecessary traffic, latency, fragile.
-    \item<3-> Implementing very large number of potentially unreliable servers.
+    \item Infrastructure based on very large numbers of unreliable and distributed servers.
+    \item<2-> But the control remains centralized.
+    \item<3-> Drawbacks: unnecessary traffic, latency, robustness
     \item<4-> Application developers should not handle the complexity of application deployment, fault tolerance, reconfiguration, or elasticity.
       
     \end{itemize}
@@ -199,7 +218,7 @@ powerful.
     \begin{figure}[ht]
 
 
- \includegraphics[width=.69\linewidth]{fog.png}
+ \includegraphics[width=.85\linewidth]{fog.png}
 \end{figure}
 \end{frame}
 
@@ -209,14 +228,15 @@ powerful.
 \begin{block}{Objectives}
     \begin{itemize}
     
-    \item Applying a distributed mechanism to manage the resources. 
-    \item<2-> Comparing the performance of Distributed mechanisms to centralized ones. 
-    \item<3-> Executing cloud resource scheduling algorithms.
-    \item<4->  One interesting direction: gossip-based algorithms for the coordination of multiple schedulers.
+    \item Designing fully distributed control mechanisms: every compute node is also a control node. 
+    \item<2->  Compare to centralized alternatives. 
+    \item<3->  One interesting direction: gossip-based algorithms for the coordination of multiple schedulers.
       
     \end{itemize}
     
     \end{block}
+ {\tiny *references: Jelasity, Márk, et al. "Gossip-based peer sampling." ACM Transactions on Computer Systems (TOCS) 25.3 (2007).}    
+    
  \end{frame}
     
   
@@ -230,9 +250,9 @@ powerful.
 \begin{block}{Project Perspective}
     \begin{itemize}
     
-    \item The Importance of the research field of fog computing. 
-    \item<2-> Advancing the State-of-the-art of edge clouding.
-    \item<3-> Implementing on the already existing testbed in IRISA.    
+    \item  Edge clouds are very new $ \implies $ opportunities for impact
+    \item<2-> An H2020 project coordinated by Prof. Pierre will start soon on fog computing.
+    
       
     \end{itemize}
     
@@ -241,8 +261,9 @@ powerful.
 \begin{block}{Personal Perspective}
     \begin{itemize}
     
-    \item PhD Thesis and my research interests 
-    \item<2-> IRISA and MYRAIDS.
+    \item<3-> Spend 3 years of my life with a subject that I'm completely interested in, so I can reach my max potential.
+    
+    \item<4-> The field of cloud and distributed systems is currently undergoing a revolution, and I want to be a part of this revolution.
    
    
     
