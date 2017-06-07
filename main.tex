@@ -32,11 +32,8 @@
 
 \institute[Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA)] % (optional, but mostly needed)
 {
-  
-  Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA)\\MYRIADS Team\\Supervised by Professor Guillaume Pierre 
-  
-  
-  }
+ Supervised by Professor Guillaume Pierre 
+   }
 
 \date{Audition, \nth{8} of June, 2017}
 
@@ -59,12 +56,12 @@
 \begin{itemize}
 \item A double diploma student.
 \begin{itemize}
-\item Engineering diploma in telecommunication and computer science - Lebanese University, Faculty of engineering (Home University).
-\item Master's degree in Informatics Grenoble (MoSIG) Parallel, Distributed Systems Track - Grenoble INP, Ensimag jointly with UGA, IMAG (Host University).
+\item Engineering diploma in telecommunication and computer science - Lebanese University, Faculty of engineering (ULFG).
+\item Master's degree in Informatics Grenoble (MoSIG) Parallel, Distributed Systems Track - Grenoble INP (Institut national polytechnique), Ensimag (\'Ecole nationale sup\'erieure d'informatique et de math\'ematiques appliqu\'ees de Grenoble) jointly with UGA (universit\'e grenoble alpes), IMAG (Informatique, math\'ematiques, math\'ematiques appliqu\'ees de Grenoble).
 \end{itemize}
 
 \item Research interest: Distributed systems, Networking.
-\item Master's thesis "Distributed Approach for Cross-Layer Resource Allocation in Wireless Sensor Networks" Jointly between LIG and VERIMAG.
+\item Master's thesis "Distributed Approach for Cross-Layer Resource Allocation in Wireless Sensor Networks" Jointly between LIG (Laboratoire d'Informatique de Grenoble) and VERIMAG.
 \end{itemize}
 
  
@@ -74,14 +71,38 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Master Thesis}
 
+\begin{frame}{Master Thesis}
+
+\begin{minipage}[t]{0.48\linewidth}
+
+\begin{block}{Overview}
+    \begin{itemize}
+    \item IEEE802.15.4: Wireless sensor network standard. 
+    \item<2-> Time-slotted channel hopping (TSCH), The Meduim access layer control.  
+     \item<3-> 6TiSCH: IPv6 over IEEE802.15.4e TSCH. 
+     \end{itemize}
+    \end{block}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\begin{figure}[p]
+
+\item<2-> \includegraphics[width=\linewidth]{TSCH.jpeg}
+
+\end{figure}
+
+\end{minipage}
+\end{frame}
+
 
 
 \begin{frame}{Master Thesis}
 
 \begin{minipage}[t]{0.48\linewidth}
 
-\begin{block}{Internship objectives}
+\begin{block}{Internship Challenges}
     \begin{itemize}
+    
     \item Improvement in the distributed 6TiSCH networks
     \item<2-> Reduction of collision in TSCH Dedicated cells.
      \item<3-> The distributed approach causing the problem. 
@@ -102,7 +123,7 @@
 \begin{figure}[p]
 
 
-\includegraphics[width=\linewidth]{Diagram1.png}
+\item<2-> \includegraphics[width=\linewidth]{Diagram1.png}
 \end{figure}
 \end{minipage}
 \end{frame}
@@ -114,7 +135,8 @@
     \item Local Mutual exclusion.  
     \item<2-> Using already existing transaction. 
      \item<3-> No new traffic was induced. 
-      \item<4-> Achieved 70\% reduction in the colliding Tx cells. 
+     \item<4-> All the neighbor node will passively learn the schedule of B
+      \item<5-> Achieved 70\% reduction in the colliding Tx cells. 
     \end{itemize}
     \end{block}
 
@@ -122,7 +144,7 @@
 \centering
 \begin{figure}[ht]
 
-\item<2-> \includegraphics[width=.65\linewidth]{mech.jpeg}
+\item<2-> \includegraphics[width=.85\linewidth]{collision.png}
 
 \end{figure}
 \end{frame}
@@ -149,12 +171,13 @@
 
 \begin{block}{}
     \begin{itemize}
-    \item Clouding disadvantages: latency, mobility, {\em etc}...
-    \item<2->  Application-Network wall.
-     \item<3-> Edge Clouding: Deploying Cloudlets in the immediate end user proximity.
-      \item<4-> Using single board computers as Cloudlets
-      \item<5-> Improvement of end to end latency, and application interactivity. 
-      \item<6-> Current fog computing platforms remains centralized.
+    \item Cloud infrastructures are extremely flexible and
+powerful.
+    \item<2->  Clouding disadvantages: latency, mobility, {\em etc}...
+     \item<3-> Application-Network wall.
+      \item<4-> Edge Clouds: Deploying Cloudlets in the immediate end user proximity.
+      \item<5-> Using single board computers as Cloudlets: cheap, location, size, security.
+      \item<6-> Improvement of end to end latency, and application interactivity. 
     \end{itemize}
     \end{block}
 
@@ -162,18 +185,23 @@
 
 \section{PhD Topic}
 \begin{frame}{PhD Topic}
- \begin{block}{Challenges}
+ \begin{block}{Challenges of Fog Computing}
     \begin{itemize}
     \item Centralized control over a distributed compute/storage resources.
     \item<2-> Drawbacks of the centralized: Unnecessary traffic, latency, fragile.
     \item<3-> Implementing very large number of potentially unreliable servers.
-    \item<4-> leveraging without handling the complexity of application deployment, fault tolerance, reconfiguration, or elasticity.
+    \item<4-> Application developers should not handle the complexity of application deployment, fault tolerance, reconfiguration, or elasticity.
       
     \end{itemize}
     
     \end{block}
-\end{frame}
+    
+    \begin{figure}[ht]
 
+
+ \includegraphics[width=.69\linewidth]{fog.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}{PhD Topic}
 
@@ -183,29 +211,45 @@
     
     \item Applying a distributed mechanism to manage the resources. 
     \item<2-> Comparing the performance of Distributed mechanisms to centralized ones. 
-    \item<3-> executing cloud resource scheduling algorithms.
-    \item<4-> executing gossip-based algorithms.
+    \item<3-> Executing cloud resource scheduling algorithms.
+    \item<4->  One interesting direction: gossip-based algorithms for the coordination of multiple schedulers.
       
     \end{itemize}
     
     \end{block}
  \end{frame}
     
+  
     
 
  
 
 \section{Project Perspective}
-\begin{frame}{Project Perspective}
+\begin{frame}{Perspective}
 
+\begin{block}{Project Perspective}
     \begin{itemize}
     
-    \item The importance of the topic. 
-    \item<2-> Solutions using Gossip algorithms. 
-    \item<3-> Advancing state-of-the-art to this hot topic. 
-    
+    \item The Importance of the research field of fog computing. 
+    \item<2-> Advancing the State-of-the-art of edge clouding.
+    \item<3-> Implementing on the already existing testbed in IRISA.    
       
     \end{itemize}
+    
+    \end{block}
+
+\begin{block}{Personal Perspective}
+    \begin{itemize}
+    
+    \item PhD Thesis and my research interests 
+    \item<2-> IRISA and MYRAIDS.
+   
+   
+    
+    \end{itemize}
+    
+    \end{block}
+   
     
 
 
@@ -216,13 +260,13 @@
 
 \begin{frame}
 \begin{tabular}{ccc}
-\includegraphics[page=7, width=0.3\textwidth]{ali.pdf} &
-\includegraphics[page=11, width=0.3\textwidth]{ali.pdf} &
-\includegraphics[page=12, width=0.3\textwidth]{ali.pdf} \\
+\includegraphics[page=10, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=15, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=16, width=0.3\textwidth]{ali.pdf} \\
 
-\includegraphics[page=18, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=22, width=0.3\textwidth]{ali.pdf} &
 \includegraphics[page=26, width=0.3\textwidth]{ali.pdf} &
-\includegraphics[page=29, width=0.3\textwidth]{ali.pdf} \\
+\includegraphics[page=30, width=0.3\textwidth]{ali.pdf} \\
 
 
 
